@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A bustling city street with cars and modern buildings, conveying urban mobility.",
+      "imageUrl": "https://images.unsplash.com/photo-1699590837772-3b2400b39ee7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2l0eSUyMHRyYWZmaWN8ZW58MHx8fHwxNzYyNjYzMTgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city traffic"
+    },
+    {
+      "id": "solution-image",
+      "description": "A person using a smartphone with a map application to find a location.",
+      "imageUrl": "https://images.unsplash.com/photo-1759256243611-502772ac391b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBtYXB8ZW58MHx8fHwxNzYyNzQ0NzUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app map"
+    },
+    {
+      "id": "download-app-phone",
+      "description": "A close-up of a smartphone screen displaying a modern app interface.",
+      "imageUrl": "https://images.unsplash.com/photo-1593789198788-8b21805d5fdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwaG9uZSUyMHNjcmVlbnxlbnwwfHx8fDE3NjI2OTM2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "phone screen"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "A smiling person looking at the camera.",
+      "imageUrl": "https://images.unsplash.com/photo-1607529378676-a20456ee2f6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc2MjY0MzE3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Another smiling person, with a slightly different expression.",
+      "imageUrl": "https://images.unsplash.com/photo-1535643302794-19c3804b874b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYyNzE0NzIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "A third person smiling, from a different angle.",
+      "imageUrl": "https://images.unsplash.com/photo-1580998510397-f5643998fc69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzbWlsaW5nJTIwZmFjZXxlbnwwfHx8fDE3NjI3NDQ3NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smiling face"
+    }
+  ]
 }
