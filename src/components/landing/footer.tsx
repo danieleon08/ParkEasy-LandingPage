@@ -1,6 +1,7 @@
 import Link from 'next/link';
-import { Car, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { LogoIcon } from './logo-icon';
 
 export default function Footer() {
   const socialLinks = [
@@ -16,7 +17,7 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           <div className="flex flex-col gap-2">
             <Link href="#inicio" className="flex items-center gap-2 font-bold text-lg text-primary w-fit">
-              <Car className="h-7 w-7 text-secondary" />
+              <LogoIcon className="h-7 w-7 text-secondary" />
               <span className="font-headline font-bold">ParkEasy</span>
             </Link>
             <p className="max-w-sm">Mejorando la movilidad urbana en Bogotá y pronto en toda Colombia.</p>

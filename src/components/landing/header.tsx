@@ -2,10 +2,11 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, X, Car } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
+import { LogoIcon } from './logo-icon';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -45,7 +46,7 @@ export default function Header() {
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="#inicio" className="flex items-center gap-2 font-bold text-lg text-primary">
-          <Car className="h-7 w-7 text-secondary" />
+          <LogoIcon className="h-7 w-7 text-secondary" />
           <span className="font-headline font-bold">ParkEasy</span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
@@ -67,7 +68,7 @@ export default function Header() {
                 <div className="flex flex-col h-full">
                   <div className="flex justify-between items-center p-4 border-b">
                      <Link href="#inicio" className="flex items-center gap-2 font-bold text-lg text-primary" onClick={() => setIsMobileMenuOpen(false)}>
-                      <Car className="h-7 w-7 text-secondary" />
+                      <LogoIcon className="h-7 w-7 text-secondary" />
                       <span className="font-headline font-bold">ParkEasy</span>
                     </Link>
                   </div>
