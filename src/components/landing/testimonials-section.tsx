@@ -8,21 +8,33 @@ const testimonials = [
   {
     name: 'Ana María G.',
     role: 'Conductora en Bogotá',
-    quote: '¡ParkEasy me cambió la vida! Ya no llego tarde a mis reuniones por estar buscando dónde parquear. La recomiendo 100%.',
+    quote: '“Siempre tengo problemas para parquear mi camioneta. Nunca sé si el parqueadero tiene espacio para vehículos grandes.”',
     avatarId: 'testimonial-1',
   },
   {
     name: 'Carlos R.',
     role: 'Usuario frecuente',
-    quote: 'La función de reservar es genial. Voy a los partidos de fútbol tranquilo sabiendo que tengo mi cupo asegurado.',
+    quote: '“Conocer los precios de los parqueaderos me permite elegir el más económico, que es lo que más me importa.”',
     avatarId: 'testimonial-2',
   },
   {
     name: 'Sofia V.',
     role: 'Estudiante',
-    quote: 'Me encanta poder ver los precios antes de llegar. Me ayuda a cuidar mi presupuesto y encontrar opciones económicas cerca a la universidad.',
+    quote: '“Me gustaría poder reservar un parqueadero con anticipación y llegar tranquilo a mis eventos.”',
     avatarId: 'testimonial-3',
   },
+  {
+    name: 'Dario Duarte',
+    role: 'Dueño de Parqueadero',
+    quote: '“Como dueño de parqueadero, quiero tener la misma visibilidad que los grandes. Necesitamos una competencia justa.”',
+    avatarId: 'testimonial-3',
+  },
+  {
+    name: 'Luis Gutierrez',
+    role: 'Conductor',
+    quote: '“Una app que centralice la información, dé visibilidad a todos y facilite estacionar sería una gran solución para la ciudad.”',
+    avatarId: 'testimonial-3',
+  }
 ];
 
 export default function TestimonialsSection() {
