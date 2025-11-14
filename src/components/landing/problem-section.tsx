@@ -10,8 +10,8 @@ const problems = [
   },
   {
     icon: <TrafficCone className="h-12 w-12 text-primary" />,
-    title: 'Tráfico y Congestión',
-    description: 'El 30% del tráfico en la ciudad es causado por conductores que buscan estacionamiento.',
+    title: 'Falta de información Centralizada',
+    description: 'No hay una fuente única de información sobre los parqueaderos disponibles en la ciudad.',
   },
   {
     icon: <Frown className="h-12 w-12 text-primary" />,
